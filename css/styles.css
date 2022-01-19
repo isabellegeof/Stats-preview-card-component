@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  margin: 0;
+  /*width: 90rem;*/
+}
+
+/*Question: how to set the width to 1440px but not have to scroll left or right to see the whole page on your desktop?*/
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  padding: 3.75rem 5rem 1.5625rem 3.125rem;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  padding: 0 5rem 0 3.125rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(277, 64%, 61%);
+}
+
+.card {
+  border-radius: 8px;
+  background-color: hsl(277, 64%, 61%);
+  margin: 6.25rem auto 0;
+  display: flex;
+  height: 445px;
+  width: 80%;
+}
+
+.left
+{
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 8px 0 0 8px;
+  width: 50%;
+}
+
+.stats {
+  display: flex;
+  margin: 0 5rem 0 3.125rem;
+}
+
+.stats > div {
+  text-align: left;
+  width: 7.5rem;
+}
+
+.stats > div > p {
+  padding:0;
+  text-transform: uppercase;
+}
+
+.right {
+  background-image:url("../images/image-header-desktop.jpg");
+  border-radius: 0 8px 8px 0;
+  opacity: 0.6;
+  width: 50%;
+}
+
+.attribution {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-size: 75%;
+  margin-top: 6.25rem;
+  text-align: center;
+}

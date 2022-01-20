@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/isabellegeof/Stats-preview-card-component](https://github.com/isabellegeof/Stats-preview-card-component)
 - Live Site URL: [https://isabellegeof.github.io/Stats-preview-card-component/](https://isabellegeof.github.io/Stats-preview-card-component/)
 
 ## My process
